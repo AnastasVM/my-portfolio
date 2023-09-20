@@ -1,0 +1,14 @@
+.social {
+    margin-bottom: 42px;
+}
+
+.link img:hover {
+    transform: translateY(-5px);
+}
+
+.link {
+    margin-right: 10px;
+    text-decoration: none;
+   
+    transition: transform .2s linear;
+}

@@ -1,0 +1,35 @@
+.nav {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.link {
+    position: relative;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    margin-right: 30px;
+}
+
+.link:after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: black;
+
+    position: absolute;
+    bottom: -5px;
+    left: 0;          
+    z-index: 1;
+
+    transition: width .2s linear;
+}
+
+.link:hover::after:not(button){
+    width: 100%;
+    
+}

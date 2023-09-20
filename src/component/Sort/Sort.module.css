@@ -1,0 +1,21 @@
+.sort {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.sortLink {
+    margin: 0 20px;
+
+    font-size: 14px;
+    color: black;
+    opacity: .7;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.sortLink:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
