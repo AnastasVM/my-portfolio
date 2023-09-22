@@ -1,5 +1,5 @@
 import React from "react";
-import s from "./AbouteMe.module.css";
+import s from "./Slider.module.css";
 import Flickity from "react-flickity-component";
 import './flickity.css';
 import swimming from './images/plavanii.jpg';
@@ -20,7 +20,7 @@ const myHobbies = {
 
 }
 
-const AbouteMe = ({children}) => {
+const Slider = ({children}) => {
     return (
         <div className={s.abouteMe}>
             <Flickity
@@ -54,4 +54,4 @@ const AbouteMe = ({children}) => {
     )
 };
 
-export default AbouteMe;
+export default Slider;

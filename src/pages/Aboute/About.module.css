@@ -1,3 +1,10 @@
 .about {
     padding: 48px 0;
 }
+
+.text {
+    padding-bottom: 12px;
+    font-size: 14px;
+    color: black;
+    font-weight: 300;
+}

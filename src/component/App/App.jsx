@@ -7,6 +7,7 @@ import Intro from '../Intro/Intro';
 import { Routes, Route } from 'react-router-dom';
 import Works from "../../pages/Works/Works";
 import Aboute from "../../pages/Aboute/About";
+import Contacts from "../../pages/Contacts/Contacts";
 
 
 function App() {
@@ -20,8 +21,8 @@ function App() {
       <Routes>
           <Route path="/" element={<Intro/>}/>
           <Route path="/works" element={<Works/>}/>
-          <Route path="/aboutMe" element={<Aboute/>
-          }/>
+          <Route path="/aboutMe" element={<Aboute/>}/>
+          <Route path="/contacts" element={<Contacts/>}/>
         </Routes>
     </main>
      <Footer/>

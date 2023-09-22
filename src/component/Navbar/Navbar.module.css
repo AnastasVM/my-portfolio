@@ -15,11 +15,35 @@
     margin-right: 30px;
 }
 
-.link:after {
+
+.secondary {
+    color: #BBBBCC;
+    font-size: 12px;
+    .link:after {
+        text-decoration: none;        
+    }
+
+}
+
+.primary:after {
     content: "";
     width: 0;
     height: 2px;
     background-color: black;
+
+    position: absolute;
+    bottom: -5px;
+    left: 0;          
+    z-index: 1;
+
+    transition: width .2s linear;
+}
+
+.secondary:after {
+    content: "";
+    width: 0;
+    height: 1px;
+    background-color: #BBBBCC;
 
     position: absolute;
     bottom: -5px;

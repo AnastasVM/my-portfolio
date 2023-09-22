@@ -24,3 +24,17 @@ button:hover {
     background-color: black;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, .3);
 }
+
+.secondary {
+    border: 1px solid #BBBBCC;
+    border-radius: 20px;
+    padding: 7px 12px;
+    font-size: 12px;
+    background-color: #141212;
+    color: #BBBBCC;
+    line-height: 1.1;
+}
+.secondary:hover {
+    background-color: #BBBBCC;
+    color: black;
+}

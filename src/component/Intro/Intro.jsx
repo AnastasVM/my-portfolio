@@ -16,8 +16,10 @@ const Intro = ({children}) => {
                     <h1 className={cn(s.title)}>Анастасия Мысник</h1>
                     <div className={cn(s.text)}>Frontend-разработчик</div>
                     <Social/>
+                    <div className={s.introButton}>
                     <Button className={s.button}>Сотрудничество</Button>
                     <Button>Резюме</Button>
+                    </div>
                 </div>
              
                 <div className={cn(s.photo)}>

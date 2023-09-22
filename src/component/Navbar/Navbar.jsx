@@ -4,18 +4,29 @@ import s from "./Navbar.module.css";
 import { Link } from "react-router-dom";
 import Button from "../Button/Button";
 
-const Navbar = () => {
+const Navbar = ({look = 'primary', className}) => {
     return (
         <nav className={cn(s.nav)}>
-            <Link to="/works" className={s.link}>
+            <Link to="/works" className={cn(s.link, className, {
+              [s.primary]: look === 'primary',
+              [s.secondary]: look === 'secondary',
+            })}>
               Мои проекты
             </Link>
-            <Link to="/aboutMe" className={s.link}>
+            <Link to="/aboutMe" className={cn(s.link, className, {
+              [s.primary]: look === 'primary',
+              [s.secondary]: look === 'secondary',
+            })}>
               Обо мне
             </Link>
-            {/* <a className={cn(s.link)} href="">Обо мне</a> */}
-            <a className={cn(s.link)} href="">Контакты</a>
-            <Button href="#">Сотрудничество</Button>          
+            <Link to="/contacts" className={cn(s.link, className, {
+              [s.primary]: look === 'primary',
+              [s.secondary]: look === 'secondary',
+            })}>
+              Контакты
+            </Link>
+            
+            <Button href="#" look={look}>Сотрудничество</Button>          
         </nav>
     );
 }

@@ -37,6 +37,10 @@ width: 50%;
     opacity: .7;
 }
 
+.introButton {
+    margin-top: 42px;
+}
+
 .button {
     margin-right: 10px;
 }
