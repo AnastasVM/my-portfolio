@@ -1,0 +1,116 @@
+.contact {
+    display: flex;
+    /* max-width: rem(470); */
+    width: 100%;
+}
+
+.contactLeft {
+    width: 47%;
+    padding: 2rem;
+}
+
+.contactRight {
+    width: 53%;
+    /* text-align: center; */
+    position: relative;
+    overflow: hidden;
+}
+
+.modalTitle {
+    font-size: 3.6rem;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+  /* margin: 0 auto;
+  font-size: clamp(rem(16), 1.67vw, rem(24));
+  line-height: clamp(rem(18), 2.08vw, rem(30)); */
+} 
+
+.modalSubtitle {
+    text-transform: uppercase;
+    font-size: 1.06rem;
+    color: black;
+    font-weight: 400;
+}
+
+.img {
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    object-fit: cover;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.info {
+    margin: 2rem 0 3rem;
+    padding: 0;
+    list-style: none;
+
+    font-size: .94rem;
+    color: black;
+    font-weight: 300;
+}
+
+.infoItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.75rem;
+    &:last-child {
+     margin-bottom: 0;
+    }
+}
+
+.formGroup {
+    margin-bottom: 1.8rem;
+}
+
+.infoIcon {
+    margin-right: 1rem;
+}
+
+.label {
+    display: inline-block;
+    margin-bottom: 0.6rem;
+
+    font-size: 0.8rem;
+    color: black;
+    font-weight: 700;
+}
+
+.input,
+.textarea {
+    display: block;
+    width: 100%;
+    padding: 1.3rem 1.8rem;
+    border: 1px solid #707070;
+    border-radius: 1.8rem;
+
+    font-family: inherit;
+    line-height: 1.2;
+    font-size: 0.8rem;
+    font-weight: 300;
+
+    transition: border-color .2s linear;
+
+    &:focus {
+        outline: none;
+        border-color: #3cafcc;
+    }
+
+    &::placeholder {
+        color: black;
+    }
+}
+
+.textarea {
+    height: 200px;
+    resize: none;
+}
+
+.btnRight {
+    text-align: right;
+}

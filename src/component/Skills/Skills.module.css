@@ -1,0 +1,24 @@
+.skills {
+    margin-bottom: 45px;
+}
+
+.skillsTitle {
+    font-size: 18px;
+    color: black;
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-weight: 700;
+
+    margin-bottom: 15px;
+}
+
+.link img:hover {
+    transform: translateY(-5px);
+}
+
+.link {
+    margin-right: 7px;
+    text-decoration: none;
+   
+    transition: transform .2s linear;
+}

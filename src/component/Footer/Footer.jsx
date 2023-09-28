@@ -4,7 +4,7 @@ import cn from "classnames";
 import Social from "../Social/Social";
 import Navbar from "../Navbar/Navbar";
 
-const Footer = () => {
+const Footer = ({setModalActive}) => {
     return (
      <footer className={s.footer}>  
         <div className="container">
@@ -13,7 +13,7 @@ const Footer = () => {
                     <Social alt="gray" />
                 </div>
                 <nav className={s.nav}>
-                    <Navbar look="secondary"/>
+                    <Navbar look="secondary" setModalActive={setModalActive}/>
                 </nav>
 
             </div>

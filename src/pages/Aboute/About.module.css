@@ -3,8 +3,12 @@
 }
 
 .text {
-    padding-bottom: 12px;
-    font-size: 14px;
+    padding-bottom: 40px;
+    font-size: 18px;
     color: black;
     font-weight: 300;
+}
+
+p {
+    text-indent: 15px;
 }

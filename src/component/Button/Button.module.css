@@ -3,18 +3,21 @@ button {
     vertical-align: top;
     min-width: 170px;
 
-    border: 1px solid grey;
+    border: 1px solid rgb(126, 124, 124);
     background-color: #fff;
-    font-size: 14px;
+    background: none;
+    font-size: 1.06rem;
     /* font-size: inherit; */
     line-height: 1.1;
-    color: black;
+    color: rgb(126, 124, 124);
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    padding: 10px 30px;
-    border-radius: 30px;
+    text-decoration: none;
+    padding: 1.05rem 1.7rem;
+    border-radius: 1.8rem;
     cursor: pointer;
+    font-family: inherit;
 
     transition: color .2s linear, background-color .2s linear, box-shadow .2s linear;
 }

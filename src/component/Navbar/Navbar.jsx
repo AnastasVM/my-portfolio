@@ -4,7 +4,7 @@ import s from "./Navbar.module.css";
 import { Link } from "react-router-dom";
 import Button from "../Button/Button";
 
-const Navbar = ({look = 'primary', className}) => {
+const Navbar = ({look = 'primary', className, setModalActive}) => {
     return (
         <nav className={cn(s.nav)}>
             <Link to="/works" className={cn(s.link, className, {
@@ -26,7 +26,7 @@ const Navbar = ({look = 'primary', className}) => {
               Контакты
             </Link>
             
-            <Button href="#" look={look}>Сотрудничество</Button>          
+            <Button href="#" look={look} onClick={()=> setModalActive(true)}>Сотрудничество</Button>          
         </nav>
     );
 }
