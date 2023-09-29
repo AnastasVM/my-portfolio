@@ -1,9 +1,9 @@
 .about {
-    padding: 48px 0;
+    padding: 48px 0 30px;
 }
 
 .text {
-    padding-bottom: 40px;
+    padding-bottom: 48px;
     font-size: 18px;
     color: black;
     font-weight: 300;

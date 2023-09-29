@@ -41,7 +41,7 @@ const Slider = ({children}) => {
                         <div style={{
                             backgroundImage: `url(${myHobbies['image'][index - 1]})`,
                             width: '100%',
-                            height: 800,
+                            height: 500,
                             backgroundSize: 'cover'
                         }}></div>
                         </>

@@ -11,11 +11,13 @@ import Contacts from "../../pages/Contacts/Contacts";
 import Modal from "../Modal/Modal";
 import { useState } from "react";
 import Cooperation from "../Сooperation/Сooperation";
+import Resume from "../Resume/Resume";
 
 
 function App() {
 
-  const [modalActive, setModalActive] = useState(true);
+  const [modalActive, setModalActive] = useState(false);
+  const [modalActiveResume, setModalActiveResume] = useState(false);
 
   return (
     <>
@@ -25,7 +27,7 @@ function App() {
      </Header>
     <main className={s.content}>
       <Routes>
-          <Route path="/" element={<Intro setModalActive={setModalActive}/>}/>
+          <Route path="/" element={<Intro setModalActive={setModalActive} setModalActiveResume={setModalActiveResume}/>}/>
           <Route path="/works" element={<Works/>}/>
           <Route path="/aboutMe" element={<Aboute/>}/>
           <Route path="/contacts" element={<Contacts/>}/>
@@ -36,6 +38,9 @@ function App() {
     </Modal>
     <Modal active={modalActive} setActive={setModalActive}>
       <Cooperation setModalActive={setModalActive}/>
+    </Modal>
+    <Modal active={modalActiveResume} setActive={setModalActiveResume}>
+      <Resume/>
     </Modal>
      <Footer setModalActive={setModalActive}/>
      </>

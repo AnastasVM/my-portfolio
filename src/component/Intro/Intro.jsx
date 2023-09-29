@@ -7,7 +7,7 @@ import nastya from "./images/Nastya.png";
 import Skills from "../Skills/Skills";
 
 
-const Intro = ({setModalActive, children}) => {
+const Intro = ({setModalActive, setModalActiveResume, children}) => {
 
     return (  
         <div className={cn(s.intro)}>
@@ -23,7 +23,7 @@ const Intro = ({setModalActive, children}) => {
                     <Social/>
                     <div className={s.introButton}>
                     <Button className={s.button} onClick={()=> setModalActive(true)}>Сотрудничество</Button>
-                    <Button onClick={()=> setModalActive(true)}>Резюме</Button>
+                    <Button onClick={()=> setModalActiveResume(true)}>Резюме</Button>
                     </div>
                 </div>
              
