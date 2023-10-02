@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import s from "./Cooperation.module.css";
-import nastya from "./images/Nastya.png";
+import nastya from "./images/Nastya_1.png";
 import mail from "./images/mail.svg";
 import telephone from "./images/telephone.svg";
 import Button from "../Button/Button";

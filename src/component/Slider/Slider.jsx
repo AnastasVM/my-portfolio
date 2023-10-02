@@ -7,6 +7,7 @@ import skiing from './images/лыжи.jpg';
 import catamaran from './images/сплавы3.jpg';
 import catamaran1 from './images/сплавы.JPG';
 import travel from './images/семья.jpg';
+import trevel1 from './images/семья1.jpg';
 
 
 const flickityOptions = {
@@ -14,9 +15,9 @@ const flickityOptions = {
 }
 
 const myHobbies = {
-    id: [1, 2, 3, 4, 5],
-    title: ['Плавание', 'Горные лыжи', 'Сплавы на катамаранах', 'Сплавы на катамаранах','Путешествия с семьей'],
-    image: [swimming, skiing, catamaran, catamaran1, travel]
+    id: [1, 2, 3, 4, 5, 6],
+    title: ['Плавание', 'Горные лыжи', 'Сплавы на катамаранах', 'Сплавы на катамаранах','Путешествия с семьей','Путешествия с семьей'],
+    image: [swimming, skiing, catamaran, catamaran1, travel, trevel1]
 
 }
 
@@ -41,7 +42,7 @@ const Slider = ({children}) => {
                         <div style={{
                             backgroundImage: `url(${myHobbies['image'][index - 1]})`,
                             width: '100%',
-                            height: 500,
+                            height: 700,
                             backgroundSize: 'cover'
                         }}></div>
                         </>

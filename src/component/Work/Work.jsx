@@ -1,9 +1,11 @@
 import React from "react";
 import s from "./Work.module.css";
+import { Link } from "react-router-dom";
 
 
-const Work = ({title, children, image, name, date, href}) => {
-    return (         
+const Work = ({id, title, children, image, name, date, href}) => {
+    return (   
+        <Link className={s.link} to={`/project/${id}`}>      
             <div className={s.card}>
                 <img className={s.image} src={image} alt="" />
                 <div className={s.content}>
@@ -18,6 +20,7 @@ const Work = ({title, children, image, name, date, href}) => {
                 </div>
                 {children}
             </div>
+        </Link>
      );
 }
  
