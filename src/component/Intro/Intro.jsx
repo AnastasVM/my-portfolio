@@ -6,7 +6,6 @@ import Button from "../Button/Button";
 import nastya from "./images/Nastya.png";
 import Skills from "../Skills/Skills";
 
-
 const Intro = ({setModalActive, setModalActiveResume, children}) => {
 
     return (  

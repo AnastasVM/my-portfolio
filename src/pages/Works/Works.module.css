@@ -41,6 +41,13 @@
     display: flex;
     flex-direction: column;
     flex-wrap:wrap;
+
+    @media(max-width: 767px) {
+        flex-basis: 50%;
+    }
+    @media(max-width: 565px) {
+        flex-basis: 100%;
+    }
 }
 
 .item {

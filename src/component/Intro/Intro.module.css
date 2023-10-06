@@ -1,6 +1,6 @@
 .wrapper {
 display: flex;
-padding: 90px 0;
+padding: 5.6rem 0;
 }
 
 .inner {
@@ -9,6 +9,11 @@ padding: 90px 0;
 
 .content {
 width: 50%;
+
+@media(max-width: 565px) {
+    width: 100%;
+}
+
 }
 
 .subtitle {
@@ -18,7 +23,7 @@ width: 50%;
 }
 
 .title {
-    font-size: 45px;
+    font-size: 3rem;
     font-weight: 700;
     color: black;
 
@@ -49,23 +54,59 @@ width: 50%;
 
 .introButton {
     margin-top: 45px;
+
+    @media(max-width: 565px) {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }   
 }
 
 .button {
     margin-right: 10px;
+
+    @media(max-width: 565px) {
+        margin-right: 0;
+    }
 }
 
 .photo {
     width: 50%;
     position: relative;
-    background: url("./images/symbols_.png") right bottom no-repeat;
+    background: url("./images/symbols_.png") center bottom no-repeat;
+
+    @media(max-width: 565px) {
+        display: none;
+    }
 }
 
 .img {
     height: 100%;
     position: absolute;
-    right: 60px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
     bottom: 0;
     z-index: 1;
     object-fit: cover;
+}
+
+@media(max-width: 900px) {
+    .img {
+        width: 350px;
+    }
+
+    .wrapper {
+        padding-bottom: 3rem;
+        padding-top: 4.5rem;
+        }
+
+    .subtitle {
+        font-size: 1.5rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
 }

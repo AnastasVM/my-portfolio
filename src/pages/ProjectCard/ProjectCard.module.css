@@ -81,3 +81,7 @@
 .linkWork:hover {
     text-decoration: underline;
 }
+
+.text {
+    /* text-indent: 0; */
+}

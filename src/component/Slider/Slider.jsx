@@ -31,7 +31,7 @@ const Slider = ({children}) => {
                 options={flickityOptions}
                 reloadOnUpdate
                 static
-                
+                wrapAround={true}
                 data-flickity='{ "autoPlay": 1500 }'
             >
             {myHobbies['id'].map((index) => {
@@ -43,7 +43,7 @@ const Slider = ({children}) => {
                             backgroundImage: `url(${myHobbies['image'][index - 1]})`,
                             width: '100%',
                             height: 700,
-                            backgroundSize: 'cover'
+                            backgroundSize: 'cover',
                         }}></div>
                         </>
                     </div>

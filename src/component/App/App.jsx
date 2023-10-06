@@ -42,7 +42,7 @@ function App() {
   return (
     <>
     <CardContext.Provider value={{ works, setWorks }}>
-     <Header>
+     <Header className={s.header}>
           <Avatar/>
           <Navbar setModalActive={setModalActive}/>
      </Header>

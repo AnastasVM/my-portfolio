@@ -22,7 +22,6 @@ const Aboute = ({children}) => {
                     </ul>
                 </div>
                 <h1>Мои увлечения</h1>
-                {/* <Slider/> */}
             </div>
             <Slider/>
         </div>
