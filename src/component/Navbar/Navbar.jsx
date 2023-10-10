@@ -3,15 +3,23 @@ import cn from "classnames";
 import s from "./Navbar.module.css";
 import { Link } from "react-router-dom";
 import Button from "../Button/Button";
-import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
+import close from "./image/close.svg";
+import burger from "./image/burger.svg";
 
 const Navbar = ({look = 'primary', className, setModalActive}) => {
 
     const [nav, setNav] = useState(false);
 
+    const handleNav = (e) => {
+      e.preventDefault();
+      setNav(!nav);
+    }
+
     return (
       <>
-          <nav className={ nav ? [s.menu, s.active].join(' ') : [s.menu]}>
+          <nav className={cn(s.menu, {
+            [s.show] : nav
+          })}>
             <Link to="/works" onClick={() => setNav(!nav)} className={cn(s.link, className, {
               [s.primary]: look === 'primary',
               [s.secondary]: look === 'secondary',
@@ -32,10 +40,9 @@ const Navbar = ({look = 'primary', className, setModalActive}) => {
             </Link>
             <Button href="#" look={look} onClick={()=> setModalActive(true)}>Сотрудничество</Button> 
         </nav>
-        <div onClick={() => setNav(!nav)} className={s.mobile_btn}>
-            { nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
-        </div>  
-        
+        <button onClick={handleNav} className={s.burger}>
+         { nav ? <img className={s.burgerIcon} src={close} alt="" /> : <img className={s.burgerIcon} src={burger} alt="" />}
+        </button>
       </>    
     );
 }

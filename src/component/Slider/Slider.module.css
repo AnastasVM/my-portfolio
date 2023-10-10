@@ -8,6 +8,10 @@
 
 .Slider {
     margin: 7vh 0;
+
+    @media(max-width: 991px) {
+        margin: 5vh 0;
+    }
 }
 
 .Plate {

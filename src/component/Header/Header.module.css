@@ -2,8 +2,19 @@
     width: 100%;
     background-color: #ffff;
     padding: 1.2rem 0;
-    /* position: fixed; */
     z-index: 50;
+
+    @media (max-width: 767px) {
+        background-color: #ffff;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, .3);
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+    }
+
 }
 
 .wrapper {

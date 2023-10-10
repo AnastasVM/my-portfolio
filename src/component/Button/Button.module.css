@@ -33,8 +33,13 @@ button {
         font-size: 0.7rem;
         padding: 0.8em 1.1em;
         min-width: 100px;
-   
-}
+    }
+
+    @media(max-width: 565px) {
+        font-size: 1rem;
+        min-width: 170px;
+        padding: 1rem 1.5rem;
+    }
 }
 
 button:hover {

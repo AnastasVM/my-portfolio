@@ -13,6 +13,7 @@ const Sort = ({works, setSelectedSection}) => {
         } 
         if(sort.name === 'Приложениe') {
             const newWorks = [...works].filter((item) => item.name === 'Приложение');
+            console.log('newWorks=====>', newWorks);
             setSelectedSection([...newWorks])
         }
         if (sort.name === 'Интернет-магазин') {
@@ -38,7 +39,7 @@ const Sort = ({works, setSelectedSection}) => {
                     key={sort.id}
                     onClick={() => handleSort(sort)}
                 >
-                    {sort.name}
+                {sort.name}
                 </div>
             ))}
         </div>

@@ -1,5 +1,13 @@
 .about {
     padding: 48px 0 30px;
+
+    @media(max-width: 991px) {
+        padding: 24px 0 0;
+    }
+
+    @media (max-width: 767px) {
+        margin-top: 100px;
+    }
 }
 
 .text {
@@ -7,6 +15,11 @@
     font-size: 18px;
     color: black;
     font-weight: 300;
+
+    @media(max-width: 991px) {
+        font-size: 16px;
+        padding-bottom: 24px;
+    }
 }
 
 p {
