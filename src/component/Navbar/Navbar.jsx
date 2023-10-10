@@ -19,7 +19,7 @@ const Navbar = ({look = 'primary', className, setModalActive}) => {
       <>
           <nav className={cn(s.menu, {
             [s.show] : nav
-          })}>
+          })} onClick={() => setNav(false)}>
             <Link to="/works" onClick={() => setNav(!nav)} className={cn(s.link, className, {
               [s.primary]: look === 'primary',
               [s.secondary]: look === 'secondary',
