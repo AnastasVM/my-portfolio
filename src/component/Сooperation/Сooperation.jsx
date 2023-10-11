@@ -121,7 +121,8 @@ const Cooperation = ({setModalActive}) => {
                             >отправить</Button>
                      ) : (
                         <div style={{color:"black", textAlign: "center", fontSize: "16px",
-                        fontWeight: "700"}}>Пожалуйста, заполните все поля формы</div>
+                        fontWeight: "700"}}>Пожалуйста, заполните все поля формы 
+                        для отправки запроса</div>
                         )}
                     </div>
                 </form>

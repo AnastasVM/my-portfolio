@@ -1,16 +1,35 @@
 .card {
     padding: 48px 0;
+
+    @media (max-width: 767px) {
+        margin-top: 100px;
+    }
 }
 
 .work {
     display: flex;
     margin-top: 3rem;
+    height: 100%;
+
+    @media (max-width: 767px) {
+       flex-direction: column;
+       width: 100%;
+    }
+
 }
 
 .workPreview {
     width: 65%;
     position: relative;
     overflow: hidden;
+
+    @media(max-width: 1100px) {
+        width: 50%;
+    }
+
+    @media (max-width: 767px) {
+        width: 100%;
+    }
 }
 
 .workPhoto {
@@ -21,13 +40,28 @@
     object-fit: cover;
 
     transform: translate3d(-50%, -50%, 0);
-    height: 100%;
+    max-width:100%;
+    max-height: 100%;
+
+    @media (max-width: 767px) {
+        position: static;
+        transform: none;   
+    }
 }
 
 
 .workContent {
     width: 35%;
-    padding: 3.4rem 4rem 1rem 1.73rem;
+    padding: 3.4rem 4rem 3rem 1.73rem;
+
+    @media(max-width: 1100px) {
+        width: 50%;
+    }
+
+    @media (max-width: 767px) {
+        width: 100%;
+        padding: 2rem 0 0;
+    }
 }
 
 .woirkInfo {
@@ -44,6 +78,10 @@
 
 .workClient {
     margin-bottom: 2.2rem;
+
+    @media (max-width: 767px) {
+        margin-bottom: 1.5rem;
+    }
 }
 
 .clientTitle {
@@ -67,6 +105,18 @@
     line-height: 2;
     color: gray;
     font-weight: 300;
+
+    @media(max-width: 1100px) {
+        margin-bottom: 5.5rem;
+    }
+
+    @media(max-width: 900px) {
+        margin-bottom: 4rem;
+    }
+
+    @media (max-width: 767px) {
+        margin-bottom: 2rem;
+    }
 }
 
 .linkWork {
@@ -82,6 +132,6 @@
     text-decoration: underline;
 }
 
-.text {
-    /* text-indent: 0; */
+p.text {
+    text-indent: 0;
 }
