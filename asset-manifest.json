@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.b293ebee.css",
-    "main.js": "/my-portfolio/static/js/main.4e152efb.js",
-    "static/js/679.da102faa.chunk.js": "/my-portfolio/static/js/679.da102faa.chunk.js",
+    "main.css": "/my-portfolio/static/css/main.1321f24f.css",
+    "main.js": "/my-portfolio/static/js/main.d3de0f48.js",
+    "static/js/679.ecd58fa5.chunk.js": "/my-portfolio/static/js/679.ecd58fa5.chunk.js",
+    "static/media/travel.jpg": "/my-portfolio/static/media/travel.c634d5a379d602eb7885.jpg",
     "static/media/семья.jpg": "/my-portfolio/static/media/семья.32b295dde0bc3837e473.jpg",
     "static/media/сплавы.JPG": "/my-portfolio/static/media/сплавы.a9e953e08f083e666457.JPG",
     "static/media/семья1.jpg": "/my-portfolio/static/media/семья1.770d12c7df2135aa428a.jpg",
     "static/media/сплавы3.jpg": "/my-portfolio/static/media/сплавы3.8aabdc8684640d310c35.jpg",
+    "static/media/лыжи1.JPG": "/my-portfolio/static/media/лыжи1.3fa5558affdbe6207dc8.JPG",
     "static/media/лыжи.jpg": "/my-portfolio/static/media/лыжи.943c576e49f25ec8158d.jpg",
     "static/media/React-team-project.png": "/my-portfolio/static/media/React-team-project.b0f88f5ee3ca9cd8fa0b.png",
     "static/media/Cats.png": "/my-portfolio/static/media/Cats.946781bc5d789d69ab93.png",
@@ -16,6 +18,8 @@
     "static/media/Mogo.png": "/my-portfolio/static/media/Mogo.003d4f52a72389f07b10.png",
     "static/media/Nastya_1.png": "/my-portfolio/static/media/Nastya_1.a1f7563b8ce031e386de.png",
     "static/media/Мысник_А.В.jpg": "/my-portfolio/static/media/Мысник_А.В.73cffe1dc0b080803aff.jpg",
+    "static/media/сплавы1.jpeg": "/my-portfolio/static/media/сплавы1.ed7c9ecfb2c2ca9d6c0c.jpeg",
+    "static/media/сплавы2.jpeg": "/my-portfolio/static/media/сплавы2.4555420d284090d15bdd.jpeg",
     "static/media/Pokemon.png": "/my-portfolio/static/media/Pokemon.e4676bfa1e7c042dae6c.png",
     "static/media/plavanii.jpg": "/my-portfolio/static/media/plavanii.42cab032ed8da29a3bda.jpg",
     "static/media/Portfolio.png": "/my-portfolio/static/media/Portfolio.1298821c5250a157f08a.png",
@@ -32,22 +36,22 @@
     "static/media/instagram.svg": "/my-portfolio/static/media/instagram.5fd75d5fbee374f89901e90def97c9d0.svg",
     "static/media/telegram.svg": "/my-portfolio/static/media/telegram.d82d157e30c1f3535283464c27d32039.svg",
     "static/media/telegram_gray.svg": "/my-portfolio/static/media/telegram_gray.d03d710c7521b2ce8c68f283d4c970f2.svg",
+    "index.html": "/my-portfolio/index.html",
     "static/media/mail-2.svg": "/my-portfolio/static/media/mail-2.9f4b0765861741c58d5e47466d771cd1.svg",
     "static/media/vk.svg": "/my-portfolio/static/media/vk.e6a37696a510a445824c533aef741bc1.svg",
     "static/media/vk_gray.svg": "/my-portfolio/static/media/vk_gray.a1c575293cf8ac710fd23d5744e6c115.svg",
     "static/media/close.svg": "/my-portfolio/static/media/close.3679f386ffd792ab51f2aac881e12083.svg",
-    "index.html": "/my-portfolio/index.html",
     "static/media/leftArrow.svg": "/my-portfolio/static/media/leftArrow.b167330d8bc7c10d5b78260b4c854e5b.svg",
     "static/media/telephone.svg": "/my-portfolio/static/media/telephone.92e390f92427328323834e1b8ab89138.svg",
     "static/media/burger.svg": "/my-portfolio/static/media/burger.fc12fbd678bea2ce4ec9524cbe12a170.svg",
     "static/media/mail.svg": "/my-portfolio/static/media/mail.7828ea972566d7acd02102084ef56f46.svg",
     "static/media/modal-close.svg": "/my-portfolio/static/media/modal-close.de1980ee3cefa242d19bde54f110f7d7.svg",
-    "main.b293ebee.css.map": "/my-portfolio/static/css/main.b293ebee.css.map",
-    "main.4e152efb.js.map": "/my-portfolio/static/js/main.4e152efb.js.map",
-    "679.da102faa.chunk.js.map": "/my-portfolio/static/js/679.da102faa.chunk.js.map"
+    "main.1321f24f.css.map": "/my-portfolio/static/css/main.1321f24f.css.map",
+    "main.d3de0f48.js.map": "/my-portfolio/static/js/main.d3de0f48.js.map",
+    "679.ecd58fa5.chunk.js.map": "/my-portfolio/static/js/679.ecd58fa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b293ebee.css",
-    "static/js/main.4e152efb.js"
+    "static/css/main.1321f24f.css",
+    "static/js/main.d3de0f48.js"
   ]
 }
