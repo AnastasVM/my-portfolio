@@ -29,6 +29,10 @@ const Cooperation = ({setModalActive}) => {
         setEmail("");
         setText("");
 
+        if(!formValid) {
+            return;
+        }
+
         setModalActive(false);
     }
 
@@ -85,12 +89,12 @@ const Cooperation = ({setModalActive}) => {
 
                 <form className={s.form} action="/" method="post">
                     <div className={s.formGroup}>
-                        <label className={s.label} htmlFor="input-email">Adress e-mail</label>
+                        <label className={s.label} htmlFor="input-email">Адрес Вашей электронной почты</label>
                         {(emailDirty && emailError) && <div style={{color:"red"}}>{emailError}</div>}
                         <input className={s.input} 
                         type="text" 
                         id="input-email" 
-                        placeholder="Adress e-mail"
+                        placeholder="Адрес электронной почты"
                         value={email}
                         onChange={e => emailHandler(e)}
                         name ="email"
@@ -98,32 +102,24 @@ const Cooperation = ({setModalActive}) => {
                         />
                     </div>
                     <div className={s.formGroup}>
-                        <label className={s.label} htmlFor="input-text">Request</label>
+                        <label className={s.label} htmlFor="input-text">Ваш запрос</label>
                         {(textDirty && textError) && <div style={{color:"red"}}>{textError}</div>}
                        <textarea 
                        name="text" 
                        id="input-text" 
                        className={s.textarea} 
-                       placeholder="Type your request..."
+                       placeholder="Введите запрос..."
                        value={text}
                        onChange={e => textHandler(e)}
                        onBlur={e => blurHandler(e)}
                        />
                     </div>
                     <div className={s.btnRight}>
-                    {/* {(!formValid) && <div style={{color:"red"}}>Форма не отправлена</div>} */}
-                       
-                    { formValid ? (
                         <Button
                             disabled={!formValid}
                             type="submit" 
                             onClick={sendRequest}
                             >отправить</Button>
-                     ) : (
-                        <div style={{color:"black", textAlign: "center", fontSize: "16px",
-                        fontWeight: "700"}}>Пожалуйста, заполните все поля формы 
-                        для отправки запроса</div>
-                        )}
                     </div>
                 </form>
             </div>
