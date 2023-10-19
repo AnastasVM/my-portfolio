@@ -16,7 +16,7 @@ const Work = ({id, title, children, image, name, date, href}) => {
                     </div>
                 </div>
                 <div className={s.linkCard}>
-                    <a className={s.linkWork} target="_blank" href={href}>Ссылка на проект</a>
+                    <a className={s.linkWork} target="_blank" rel="noreferrer" href={href}>Ссылка на проект</a>
                 </div>
                 {children}
             </div>

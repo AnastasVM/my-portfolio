@@ -9,7 +9,6 @@ import Sort from "../../component/Sort/Sort";
 const Works = ({works, children}) => {
 
  const [selectedSection, setSelectedSection] = useState(works);
- console.log("selectedSection--->", selectedSection);
 
  const handlleAllWorks = () => {
         setSelectedSection(works);

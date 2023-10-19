@@ -15,7 +15,7 @@
 .sortLink {
     margin: 0 20px;
 
-    font-size: 14px;
+    font-size: 16px;
     color: black;
     opacity: .7;
     text-decoration: none;
@@ -24,6 +24,11 @@
     @media(max-width: 767px) {
         margin: 0 10px;
     }
+}
+
+.active {
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .sortLink:hover {
