@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.60e18e55.css",
-    "main.js": "/my-portfolio/static/js/main.70354f85.js",
+    "main.css": "/my-portfolio/static/css/main.1222f52d.css",
+    "main.js": "/my-portfolio/static/js/main.89136075.js",
     "static/js/679.ecd58fa5.chunk.js": "/my-portfolio/static/js/679.ecd58fa5.chunk.js",
     "static/media/travel.jpg": "/my-portfolio/static/media/travel.c634d5a379d602eb7885.jpg",
     "static/media/семья.jpg": "/my-portfolio/static/media/семья.32b295dde0bc3837e473.jpg",
@@ -20,6 +20,7 @@
     "static/media/Мысник_А.В.jpg": "/my-portfolio/static/media/Мысник_А.В.73cffe1dc0b080803aff.jpg",
     "static/media/сплавы1.jpeg": "/my-portfolio/static/media/сплавы1.ed7c9ecfb2c2ca9d6c0c.jpeg",
     "static/media/сплавы2.jpeg": "/my-portfolio/static/media/сплавы2.4555420d284090d15bdd.jpeg",
+    "static/media/6373669.jpg": "/my-portfolio/static/media/6373669.35690993e75cc595d3ef.jpg",
     "static/media/Pokemon.png": "/my-portfolio/static/media/Pokemon.e4676bfa1e7c042dae6c.png",
     "static/media/plavanii.jpg": "/my-portfolio/static/media/plavanii.42cab032ed8da29a3bda.jpg",
     "static/media/Portfolio.png": "/my-portfolio/static/media/Portfolio.1298821c5250a157f08a.png",
@@ -46,12 +47,12 @@
     "static/media/burger.svg": "/my-portfolio/static/media/burger.fc12fbd678bea2ce4ec9524cbe12a170.svg",
     "static/media/mail.svg": "/my-portfolio/static/media/mail.7828ea972566d7acd02102084ef56f46.svg",
     "static/media/modal-close.svg": "/my-portfolio/static/media/modal-close.de1980ee3cefa242d19bde54f110f7d7.svg",
-    "main.60e18e55.css.map": "/my-portfolio/static/css/main.60e18e55.css.map",
-    "main.70354f85.js.map": "/my-portfolio/static/js/main.70354f85.js.map",
+    "main.1222f52d.css.map": "/my-portfolio/static/css/main.1222f52d.css.map",
+    "main.89136075.js.map": "/my-portfolio/static/js/main.89136075.js.map",
     "679.ecd58fa5.chunk.js.map": "/my-portfolio/static/js/679.ecd58fa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.60e18e55.css",
-    "static/js/main.70354f85.js"
+    "static/css/main.1222f52d.css",
+    "static/js/main.89136075.js"
   ]
 }
