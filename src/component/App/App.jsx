@@ -22,6 +22,7 @@ import pokemon from "./image/Pokemon.png";
 import activebox from "./image/ActiveBox.png";
 import mogo from "./image/Mogo.png";
 import portfolio from "./image/Portfolio.png";
+import NotFoundPage from "../../pages/NotFoundPage/NotFoundPage";
 
 
 function App() {
@@ -53,6 +54,7 @@ function App() {
           <Route path="/aboutMe" element={<Aboute/>}/>
           <Route path="/contacts" element={<Contacts/>}/>
           <Route path="/project/:projectId" element={<ProjectCard/>}/>
+          <Route path="*" element={<NotFoundPage/>}/>
       </Routes>
     </main>
 
