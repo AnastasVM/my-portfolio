@@ -1,80 +1,84 @@
-.wrapper{
+.wrapper {
 	width: 100%;
-    /* max-width: 1280px; */
-    margin: 0 auto;
-    /* padding: 3rem 0; */
-    text-align: center;
-    position: relative;
-    /* background-color: #333; */
-    /* @media(max-width: 840px){
+	/* max-width: 1280px; */
+	margin: 0 auto;
+	/* padding: 3rem 0; */
+	text-align: center;
+	position: relative;
+	/* background-color: #333; */
+	/* @media(max-width: 840px){
         width: 90%;
 } */
 }
 
 .slick-prev {
-    left: 0;
-    z-index: 50;
-    &:hover {
-        box-shadow: none;
-    }
-    min-width: 20px;
+	left: 0;
+	z-index: 50;
+	&:hover {
+		box-shadow: none;
+	}
+	min-width: 20px;
 }
 .slick-prev:before {
-    font-size: 40px;
-    color: #2d2e31;
+	font-size: 40px;
+	/* color: #2d2e31; */
+	color: #ffff;
 }
 
 .slick-next {
-    right: 20px;
-    min-width: 0;
-    z-index: 50;
-    &:hover {
-        box-shadow: none;
-    }
+	right: 20px;
+	min-width: 0;
+	z-index: 50;
+	&:hover {
+		box-shadow: none;
+	}
 }
 
 .slick-next:before {
-    font-size: 40px;
-    color: #2d2e31;
+	font-size: 40px;
+	/* color: #2d2e31; */
+	color: #ffff;
 }
 
 .slick-dots li button {
-    min-width: 0;
-    &:hover {
-        box-shadow: none;
-    }
+	min-width: 0;
+	&:hover {
+		box-shadow: none;
+	}
 }
 
 .slider__item {
-    height: 25rem;
-    width: 100%;
-    background-color: #4e5156;
-    /* margin: 0 0.5rem; */
-    padding: 0 0.5rem 0.5rem;
-    border-radius: 5px;
-    border-bottom: 0.5rem solid #4e5156;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
+	height: 25rem;
+	width: 100%;
+	background-color: #4e5156;
+	/* margin: 0 0.5rem; */
+	padding: 0 0.5rem 0.5rem;
+	border-radius: 5px;
+	border-bottom: 0.5rem solid #4e5156;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
 }
 
 .slider__title {
-    color: #ffff;
-    margin: 15px;
+	color: #ffff;
+	margin: 15px;
 }
 
 .slider__img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 400ms ease-in-out;
-    &:hover {
-        transform: scale(1.5);
-    }
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 400ms ease-in-out;
+	&:hover {
+		transform: scale(1.5);
+	}
 }
 
-.slick-list, .slick-slider, .slick-track{
-    padding: 3.8rem 0;
+.slick-list,
+.slick-slider,
+.slick-track {
+	padding: 3.8rem 0;
 }
 
 /* .slick-slide {
@@ -82,51 +86,55 @@
 } */
 
 .center .slick-center .slider__item {
-    opacity: 1;
-    transform: scale(1.3);
-    z-index: 10000;
-    transition: all 400ms ease-in-out;
-    pointer-events: all;
+	opacity: 1;
+	transform: scale(1.3);
+	z-index: 10000;
+	transition: all 400ms ease-in-out;
+	pointer-events: all;
 }
 
 .center .slider__item {
-    opacity: 0.7;
-    pointer-events: none;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
+	opacity: 0.7;
+	pointer-events: none;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
 }
 
-@media(max-width: 990px) {
-    .center .slick-center .slider__item {
-        transform: scale(1);
-    }
-    .center .slider__item {
-        opacity: 1;
-        pointer-events: all;
-    }
-    .slick-list, .slick-slider, .slick-track{
-        padding: 1rem 0;
-    }
+@media (max-width: 990px) {
+	.center .slick-center .slider__item {
+		transform: scale(1);
+	}
+	.center .slider__item {
+		opacity: 1;
+		pointer-events: all;
+	}
+	.slick-list,
+	.slick-slider,
+	.slick-track {
+		padding: 1rem 0;
+	}
 }
 
-@media(max-width: 767px) {
-    .slick-next:before {
-        font-size: 20px;
-        color: #ffff;
-    }
-    .slick-prev:before {
-        font-size: 20px;
-        color: #ffff;
-    }
-    .slick-next {
-        right: 10px;
-    }
+@media (max-width: 767px) {
+	.slick-next:before {
+		font-size: 20px;
+		color: #ffff;
+	}
+	.slick-prev:before {
+		font-size: 20px;
+		color: #ffff;
+	}
+	.slick-next {
+		right: 10px;
+	}
 
-    .slick-prev {
-        left: 10px;
-    }
+	.slick-prev {
+		left: 10px;
+	}
 
-    .slick-list, .slick-slider, .slick-track{
-        padding: 0.5rem 0;
-    }
+	.slick-list,
+	.slick-slider,
+	.slick-track {
+		padding: 0.5rem 0;
+	}
 }

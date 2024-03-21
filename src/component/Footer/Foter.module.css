@@ -1,13 +1,12 @@
 .footer {
-    margin-top: 20px;
-    padding: 15px 0;
-    background-color: rgb(61, 60, 60);
-    color: #fff;
+	/* margin-top: 20px; */
+	padding: 15px 0;
+	background-color: rgb(61, 60, 60);
+	color: #fff;
 }
 
 .inner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
-
