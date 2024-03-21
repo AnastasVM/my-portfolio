@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.1222f52d.css",
-    "main.js": "/my-portfolio/static/js/main.89136075.js",
+    "main.css": "/my-portfolio/static/css/main.b1fdcf78.css",
+    "main.js": "/my-portfolio/static/js/main.4f64d75a.js",
     "static/js/679.ecd58fa5.chunk.js": "/my-portfolio/static/js/679.ecd58fa5.chunk.js",
     "static/media/travel.jpg": "/my-portfolio/static/media/travel.c634d5a379d602eb7885.jpg",
     "static/media/семья.jpg": "/my-portfolio/static/media/семья.32b295dde0bc3837e473.jpg",
@@ -9,6 +9,7 @@
     "static/media/семья1.jpg": "/my-portfolio/static/media/семья1.770d12c7df2135aa428a.jpg",
     "static/media/сплавы3.jpg": "/my-portfolio/static/media/сплавы3.8aabdc8684640d310c35.jpg",
     "static/media/лыжи1.JPG": "/my-portfolio/static/media/лыжи1.3fa5558affdbe6207dc8.JPG",
+    "static/media/permanent-makeup.png": "/my-portfolio/static/media/permanent-makeup.03ceb1247cf92b482e5f.png",
     "static/media/лыжи.jpg": "/my-portfolio/static/media/лыжи.943c576e49f25ec8158d.jpg",
     "static/media/React-team-project.png": "/my-portfolio/static/media/React-team-project.b0f88f5ee3ca9cd8fa0b.png",
     "static/media/Cats.png": "/my-portfolio/static/media/Cats.946781bc5d789d69ab93.png",
@@ -21,10 +22,13 @@
     "static/media/сплавы1.jpeg": "/my-portfolio/static/media/сплавы1.ed7c9ecfb2c2ca9d6c0c.jpeg",
     "static/media/сплавы2.jpeg": "/my-portfolio/static/media/сплавы2.4555420d284090d15bdd.jpeg",
     "static/media/6373669.jpg": "/my-portfolio/static/media/6373669.35690993e75cc595d3ef.jpg",
+    "static/media/Inna.jpg": "/my-portfolio/static/media/Inna.2d3fa5e2087c1c75ad1a.jpg",
     "static/media/Pokemon.png": "/my-portfolio/static/media/Pokemon.e4676bfa1e7c042dae6c.png",
     "static/media/plavanii.jpg": "/my-portfolio/static/media/plavanii.42cab032ed8da29a3bda.jpg",
+    "static/media/Мысник Анастасия.pdf": "/my-portfolio/static/media/Мысник Анастасия.29d05a5277cfdf8d9b21.pdf",
     "static/media/Portfolio.png": "/my-portfolio/static/media/Portfolio.1298821c5250a157f08a.png",
     "static/media/DogFood.png": "/my-portfolio/static/media/DogFood.a96691f15a1cf22e7463.png",
+    "static/media/reviews-bg.png": "/my-portfolio/static/media/reviews-bg.574421173abc0472a316.png",
     "static/media/symbols_.png": "/my-portfolio/static/media/symbols_.f46450320de028876c7e.png",
     "static/media/icons-react.svg": "/my-portfolio/static/media/icons-react.27cf7d645c57ca50a66f7e098730cbf9.svg",
     "static/media/instagram_gray.svg": "/my-portfolio/static/media/instagram_gray.fd46baf176e5045720ed474a9520b0f2.svg",
@@ -41,18 +45,18 @@
     "static/media/mail-2.svg": "/my-portfolio/static/media/mail-2.9f4b0765861741c58d5e47466d771cd1.svg",
     "static/media/vk.svg": "/my-portfolio/static/media/vk.e6a37696a510a445824c533aef741bc1.svg",
     "static/media/vk_gray.svg": "/my-portfolio/static/media/vk_gray.a1c575293cf8ac710fd23d5744e6c115.svg",
-    "static/media/close.svg": "/my-portfolio/static/media/close.3679f386ffd792ab51f2aac881e12083.svg",
+    "static/media/close.svg": "/my-portfolio/static/media/close.75354b76a0f5fb78eacad4875383e6a8.svg",
     "static/media/leftArrow.svg": "/my-portfolio/static/media/leftArrow.b167330d8bc7c10d5b78260b4c854e5b.svg",
     "static/media/telephone.svg": "/my-portfolio/static/media/telephone.92e390f92427328323834e1b8ab89138.svg",
     "static/media/burger.svg": "/my-portfolio/static/media/burger.fc12fbd678bea2ce4ec9524cbe12a170.svg",
     "static/media/mail.svg": "/my-portfolio/static/media/mail.7828ea972566d7acd02102084ef56f46.svg",
     "static/media/modal-close.svg": "/my-portfolio/static/media/modal-close.de1980ee3cefa242d19bde54f110f7d7.svg",
-    "main.1222f52d.css.map": "/my-portfolio/static/css/main.1222f52d.css.map",
-    "main.89136075.js.map": "/my-portfolio/static/js/main.89136075.js.map",
+    "main.b1fdcf78.css.map": "/my-portfolio/static/css/main.b1fdcf78.css.map",
+    "main.4f64d75a.js.map": "/my-portfolio/static/js/main.4f64d75a.js.map",
     "679.ecd58fa5.chunk.js.map": "/my-portfolio/static/js/679.ecd58fa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1222f52d.css",
-    "static/js/main.89136075.js"
+    "static/css/main.b1fdcf78.css",
+    "static/js/main.4f64d75a.js"
   ]
 }
